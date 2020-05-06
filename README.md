@@ -4,5 +4,6 @@ Dockerfile with:
 - DepencencyCheck
 - Findbugs
 
-## Docker build -t "sonar-qube" -f "Dockerfile" .
-## Docker run -p 9000:9000 sonar-qube
+Install
+- Docker build -t "sonar-qube" -f "Dockerfile" .
+- Docker run -p 9000:9000 sonar-qube
