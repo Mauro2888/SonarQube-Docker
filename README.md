@@ -1,3 +1,8 @@
 # SonarQube-Docker
-Docker file with a few dependencies
-SonarQube v.7.9.3 with depencencyCheck and findbugs
+Dockerfile with:
+- SonarQube v.7.9.3 
+- DepencencyCheck
+- Findbugs
+
+#Docker build -t "sonar-qube" -f "Dockerfile" .
+#Docker run -p 9000:9000 sonar-qube
