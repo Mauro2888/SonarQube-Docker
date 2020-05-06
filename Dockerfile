@@ -1,7 +1,7 @@
-# Dockerfile official sonarqube docker image: https://github.com/SonarSource/docker-sonarqube/blob/abaf14c38297974eb5de295d42e83066ddb84751/7.7-community/Dockerfile
+# Dockerfile official sonarqube docker image: https://github.com/SonarSource/docker-sonarqube/blob/master/7/community/Dockerfile
 # FindBugs jar https://github.com/spotbugs/sonar-findbugs/releases/download/3.10.0/sonar-findbugs-plugin-3.10.0.jar
 
-# update java version to 11 with sonar cube 7.9
+# update java version to 11 with sonarqube 7.9
 
 FROM openjdk:11-jre-slim
 
