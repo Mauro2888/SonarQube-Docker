@@ -14,8 +14,8 @@ ENV SONAR_VERSION=7.9.3 \
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
     SONARQUBE_JDBC_URL= \
-	DPCHECK_JAR=https://github.com/dependency-check/dependency-check-sonar-plugin/releases/download/2.0.4/sonar-dependency-check-plugin-2.0.4.jar \
-	FIND_BUGS_JAR=https://github.com/spotbugs/sonar-findbugs/releases/download/3.10.0/sonar-findbugs-plugin-3.10.0.jar
+    DPCHECK_JAR=https://github.com/dependency-check/dependency-check-sonar-plugin/releases/download/2.0.4/sonar-dependency-check-plugin-2.0.4.jar \
+    FIND_BUGS_JAR=https://github.com/spotbugs/sonar-findbugs/releases/download/3.10.0/sonar-findbugs-plugin-3.10.0.jar
 
 LABEL maintainer = "mauro.dev88@gmail.com
 
